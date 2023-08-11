@@ -13,3 +13,239 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\vnleman
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-11 14:34:02.096
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-08-11 14:36:09.777 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-11 14:46:31.253
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-11 14:46:31.256
+!MESSAGE Log4j2 initialized with config file C:\Users\vnlemanhthanh\Documents\GitHub\niekiran--Embedded-C\My_workspace\host\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-11 14:46:39.060
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-08-11 14:49:06.754 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/Users/vnlemanhthanh/Documents/GitHub/niekiran--Embedded-C/My_workspace/host/
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-11 14:49:18.841
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-11 14:49:18.844
+!MESSAGE Log4j2 initialized with config file C:\Users\vnlemanhthanh\Documents\GitHub\niekiran--Embedded-C\My_workspace\host\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-11 14:49:26.593
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-08-11 14:51:22.670
+!MESSAGE Indexed '000TestProject' (0 sources, 0 headers) in 0.004 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2023-08-11 15:03:12.133
+!MESSAGE Not able to get mcu target.
+!STACK 0
+org.eclipse.cdt.managedbuilder.core.BuildException: No toolchain option in toolchain configuration cdt.managedbuild.toolchain.gnu.mingw.exe.debug.1028762469: 
+	at com.st.stm32cube.ide.mcu.toolchain.ToolChainHelper.getToolChainId(ToolChainHelper.java:166)
+	at com.st.stm32cube.ide.mcu.toolchain.ToolChainHelper.getToolChainInfo(ToolChainHelper.java:109)
+	at com.st.stm32cube.ide.common.services.core.helpers.TargetHelper.getMcu(TargetHelper.java:152)
+	at com.st.stm32cube.ide.mcu.ide.core.TargetHelper.getMcu(TargetHelper.java:177)
+	at com.st.stm32cube.ide.mcu.debug.launch.device.AbstractDebugHardware.isDebugAuthSupported(AbstractDebugHardware.java:582)
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.initializeFrom(StLinkDebugHardware.java:1196)
+	at com.st.stm32cube.ide.mcu.debug.launch.oss.ui.DebuggerTab.initializeFrom(DebuggerTab.java:488)
+	at org.eclipse.debug.ui.AbstractLaunchConfigurationTabGroup.initializeFrom(AbstractLaunchConfigurationTabGroup.java:93)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupWrapper.initializeFrom(LaunchConfigurationTabGroupWrapper.java:182)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.displayInstanceTabs(LaunchConfigurationTabGroupViewer.java:868)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.lambda$4(LaunchConfigurationTabGroupViewer.java:728)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.inputChanged(LaunchConfigurationTabGroupViewer.java:743)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput0(LaunchConfigurationTabGroupViewer.java:675)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput(LaunchConfigurationTabGroupViewer.java:655)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPropertiesDialog.initializeContent(LaunchConfigurationPropertiesDialog.java:101)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.createContents(LaunchConfigurationsDialog.java:473)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.create(LaunchConfigurationsDialog.java:378)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1238)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPropertiesDialog.open(LaunchConfigurationPropertiesDialog.java:186)
+	at com.st.stm32cube.ide.mcu.debug.launch.ui.MCUDebugLaunchShortcut.createConfiguration(MCUDebugLaunchShortcut.java:91)
+	at com.st.stm32cube.ide.mcu.debug.launch.oss.ui.DebugLaunchShortcut.launch(DebugLaunchShortcut.java:62)
+	at com.st.stm32cube.ide.mcu.debug.launch.oss.ui.DebugLaunchShortcut.searchAndLaunch(DebugLaunchShortcut.java:172)
+	at com.st.stm32cube.ide.mcu.debug.launch.ui.MCUDebugLaunchShortcut.launch(MCUDebugLaunchShortcut.java:115)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:430)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:135)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1206)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2023-08-11 15:03:38.984
+!MESSAGE Not able to get mcu target.
+!STACK 0
+org.eclipse.cdt.managedbuilder.core.BuildException: No toolchain option in toolchain configuration cdt.managedbuild.toolchain.gnu.mingw.exe.debug.1028762469: 
+	at com.st.stm32cube.ide.mcu.toolchain.ToolChainHelper.getToolChainId(ToolChainHelper.java:166)
+	at com.st.stm32cube.ide.mcu.toolchain.ToolChainHelper.getToolChainInfo(ToolChainHelper.java:109)
+	at com.st.stm32cube.ide.common.services.core.helpers.TargetHelper.getMcu(TargetHelper.java:152)
+	at com.st.stm32cube.ide.mcu.ide.core.TargetHelper.getMcu(TargetHelper.java:177)
+	at com.st.stm32cube.ide.mcu.debug.launch.device.AbstractDebugHardware.isDebugAuthSupported(AbstractDebugHardware.java:582)
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.initializeFrom(StLinkDebugHardware.java:1196)
+	at com.st.stm32cube.ide.mcu.debug.launch.oss.ui.DebuggerTab.initializeFrom(DebuggerTab.java:488)
+	at org.eclipse.debug.ui.AbstractLaunchConfigurationTabGroup.initializeFrom(AbstractLaunchConfigurationTabGroup.java:93)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupWrapper.initializeFrom(LaunchConfigurationTabGroupWrapper.java:182)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.displayInstanceTabs(LaunchConfigurationTabGroupViewer.java:868)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.lambda$4(LaunchConfigurationTabGroupViewer.java:728)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.inputChanged(LaunchConfigurationTabGroupViewer.java:743)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput0(LaunchConfigurationTabGroupViewer.java:675)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput(LaunchConfigurationTabGroupViewer.java:655)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPropertiesDialog.initializeContent(LaunchConfigurationPropertiesDialog.java:101)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.createContents(LaunchConfigurationsDialog.java:473)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.create(LaunchConfigurationsDialog.java:378)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1238)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPropertiesDialog.open(LaunchConfigurationPropertiesDialog.java:186)
+	at com.st.stm32cube.ide.mcu.debug.launch.ui.MCUDebugLaunchShortcut.createConfiguration(MCUDebugLaunchShortcut.java:91)
+	at com.st.stm32cube.ide.mcu.debug.launch.oss.ui.DebugLaunchShortcut.launch(DebugLaunchShortcut.java:62)
+	at com.st.stm32cube.ide.mcu.debug.launch.oss.ui.DebugLaunchShortcut.searchAndLaunch(DebugLaunchShortcut.java:172)
+	at com.st.stm32cube.ide.mcu.debug.launch.ui.MCUDebugLaunchShortcut.launch(MCUDebugLaunchShortcut.java:115)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:430)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:135)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.st.stm32cube.ide.common.services 4 0 2023-08-11 15:03:47.800
+!MESSAGE Not able to get mcu target.
+!STACK 0
+org.eclipse.cdt.managedbuilder.core.BuildException: No toolchain option in toolchain configuration cdt.managedbuild.toolchain.gnu.mingw.exe.debug.1028762469: 
+	at com.st.stm32cube.ide.mcu.toolchain.ToolChainHelper.getToolChainId(ToolChainHelper.java:166)
+	at com.st.stm32cube.ide.mcu.toolchain.ToolChainHelper.getToolChainInfo(ToolChainHelper.java:109)
+	at com.st.stm32cube.ide.common.services.core.helpers.TargetHelper.getMcu(TargetHelper.java:152)
+	at com.st.stm32cube.ide.mcu.ide.core.TargetHelper.getMcu(TargetHelper.java:177)
+	at com.st.stm32cube.ide.mcu.debug.launch.device.AbstractDebugHardware.isDebugAuthSupported(AbstractDebugHardware.java:582)
+	at com.st.stm32cube.ide.mcu.debug.stlink.StLinkDebugHardware.initializeFrom(StLinkDebugHardware.java:1196)
+	at com.st.stm32cube.ide.mcu.debug.launch.oss.ui.DebuggerTab.initializeFrom(DebuggerTab.java:488)
+	at org.eclipse.debug.ui.AbstractLaunchConfigurationTab.activated(AbstractLaunchConfigurationTab.java:453)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.handleTabSelected(LaunchConfigurationTabGroupViewer.java:1466)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.handleTabChange(LaunchConfigurationTabGroupViewer.java:443)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer$6.widgetSelected(LaunchConfigurationTabGroupViewer.java:409)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3248)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1882)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:332)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1238)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationPropertiesDialog.open(LaunchConfigurationPropertiesDialog.java:186)
+	at com.st.stm32cube.ide.mcu.debug.launch.ui.MCUDebugLaunchShortcut.createConfiguration(MCUDebugLaunchShortcut.java:91)
+	at com.st.stm32cube.ide.mcu.debug.launch.oss.ui.DebugLaunchShortcut.launch(DebugLaunchShortcut.java:62)
+	at com.st.stm32cube.ide.mcu.debug.launch.oss.ui.DebugLaunchShortcut.searchAndLaunch(DebugLaunchShortcut.java:172)
+	at com.st.stm32cube.ide.mcu.debug.launch.ui.MCUDebugLaunchShortcut.launch(MCUDebugLaunchShortcut.java:115)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:430)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:135)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3642)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
