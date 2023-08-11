@@ -1,0 +1,11 @@
+build.all.configs.enabled=false
+build.proj.ref.configs.enabled=false
+eclipse.preferences.version=1
+environment/workspace/MINGW_HOME/delimiter=;
+environment/workspace/MINGW_HOME/operation=append
+environment/workspace/MINGW_HOME/value=C\:\\CTOOLS\\mingw32
+environment/workspace/MSYS_HOME/delimiter=;
+environment/workspace/MSYS_HOME/operation=append
+environment/workspace/MSYS_HOME/value=C\:\\CTOOLS
+environment/workspace/append=true
+environment/workspace/appendContributed=true
