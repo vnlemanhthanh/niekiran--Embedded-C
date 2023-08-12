@@ -13,3 +13,54 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\vnleman
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-11 14:35:32.084
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-08-11 15:06:26.299 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\vnlemanhthanh\Documents\GitHub\niekiran--Embedded-C\My_workspace\target
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-11 15:06:39.036
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-11 15:06:39.040
+!MESSAGE Log4j2 initialized with config file C:\Users\vnlemanhthanh\Documents\GitHub\niekiran--Embedded-C\My_workspace\target\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-11 15:06:49.935
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-08-11 15:18:49.556
+!MESSAGE Indexed '000TestProject' (3 sources, 53 headers) in 3.93 sec: 1,950 declarations; 2,832 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2023-08-12 16:23:22.513 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\vnlemanhthanh\Documents\GitHub\niekiran--Embedded-C\My_workspace\target
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-12 16:23:30.892
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-12 16:23:30.905
+!MESSAGE Log4j2 initialized with config file C:\Users\vnlemanhthanh\Documents\GitHub\niekiran--Embedded-C\My_workspace\target\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-12 16:23:38.822
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-08-12 16:30:01.594 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\vnlemanhthanh\Documents\GitHub\niekiran--Embedded-C\My_workspace\target
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-12 16:30:11.191
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-12 16:30:11.194
+!MESSAGE Log4j2 initialized with config file C:\Users\vnlemanhthanh\Documents\GitHub\niekiran--Embedded-C\My_workspace\target\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-12 16:30:21.830
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-08-12 16:32:02.436
+!MESSAGE Indexed '001HelloWorld' (3 sources, 53 headers) in 2.52 sec: 1,950 declarations; 2,832 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)

@@ -795,3 +795,18 @@ java.lang.Exception: Resource '/test2/.settings/language.settings.xml' is not lo
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-08-11 14:28:10.092
 !MESSAGE Indexed 'unionBitExraction' (1 sources, 17 headers) in 0.154 sec: 1,333 declarations; 2,032 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2023-08-12 16:25:12.506 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\vnlemanhthanh\Documents\GitHub\niekiran--Embedded-C\instructor\host
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-08-12 16:25:21.229
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-08-12 16:25:21.244
+!MESSAGE Log4j2 initialized with config file C:\Users\vnlemanhthanh\Documents\GitHub\niekiran--Embedded-C\instructor\host\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-08-12 16:25:32.815
+!MESSAGE Started RMI Server, listening on port 41337
