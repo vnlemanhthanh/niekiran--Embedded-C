@@ -1,0 +1,5 @@
+10:53:10 **** Clean-only build of configuration Debug for project whileLoopEvenNum ****
+rm -rf main.d main.o whileLoopEvenNum.exe 
+
+10:53:10 Build Finished. 0 errors, 0 warnings. (took 177ms)
+

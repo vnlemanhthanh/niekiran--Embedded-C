@@ -1,0 +1,9 @@
+10:50:51 **** Clean-only build of configuration Debug for project 009packed_Vsnonpacked ****
+make -j4 clean 
+rm -rf ./Startup/startup_stm32f407vgtx.d ./Startup/startup_stm32f407vgtx.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf 009packed_Vsnonpacked.elf 009packed_Vsnonpacked.list 009packed_Vsnonpacked.map default.size.stdout
+ 
+
+10:50:51 Build Finished. 0 errors, 0 warnings. (took 263ms)
+

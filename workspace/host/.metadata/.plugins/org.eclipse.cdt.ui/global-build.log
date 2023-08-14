@@ -1,0 +1,82 @@
+03:10:57 **** Rebuild of configuration Debug for project bitWiseSet ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o bitWiseSet.exe main.o 
+10:52:59 **** Clean-only build of configuration Debug for project 000TestProgect ****
+rm -rf 000TestProgect.exe main.d main.o 
+10:53:00 **** Clean-only build of configuration Debug for project ASCII ****
+rm -rf ASCII.o ASCII.d ASCII.exe 
+10:53:00 **** Clean-only build of configuration Debug for project Average ****
+rm -rf Average.exe main_new.o main_new.d 
+10:53:01 **** Clean-only build of configuration Debug for project WhileLoop1to10 ****
+rm -rf main.o main.d WhileLoop1to10.exe 
+10:53:01 **** Clean-only build of configuration Debug for project arrays ****
+rm -rf main.d main.o arrays.exe 
+10:53:01 **** Clean-only build of configuration Debug for project arrays_passing ****
+rm -rf main.o arrays_passing.exe main.d 
+10:53:02 **** Clean-only build of configuration Debug for project arrays_swap ****
+rm -rf main.d arrays_swap.exe main.o 
+10:53:02 **** Clean-only build of configuration Debug for project bitWise2Numbers ****
+rm -rf bitWise2Numbers.exe main.d main.o 
+10:53:02 **** Clean-only build of configuration Debug for project bitWiseEvenOdd ****
+rm -rf main.d main.o bitWiseEvenOdd.exe 
+10:53:03 **** Clean-only build of configuration Debug for project bitWiseSet ****
+rm -rf main.o bitWiseSet.exe main.d 
+10:53:03 **** Clean-only build of configuration Debug for project constdata ****
+rm -rf main.o main.d constdata.exe 
+10:53:03 **** Clean-only build of configuration Debug for project dataAlignment ****
+rm -rf dataAlignment.exe main.d main.o 
+10:53:03 **** Clean-only build of configuration Debug for project forLoopEvenNum ****
+rm -rf main.o forLoopEvenNum.exe main.d 
+10:53:03 **** Clean-only build of configuration Debug for project forloopNumberPyramid ****
+rm -rf main.o main.d forloopNumberPyramid.exe 
+10:53:04 **** Clean-only build of configuration Debug for project function ****
+rm -rf function.exe function.d function.o 
+10:53:04 **** Clean-only build of configuration Debug for project ifelseBiggestOfTwo ****
+rm -rf ifelseBiggestOfTwo.exe main.o main.d 
+10:53:04 **** Clean-only build of configuration Debug for project ifelseCastVote ****
+rm -rf main.o ifelseCastVote.exe main.d 
+10:53:04 **** Clean-only build of configuration Debug for project ifelseifTax ****
+rm -rf main.d main.o ifelseifTax.exe 
+10:53:05 **** Clean-only build of configuration Debug for project ifstatementCastVote ****
+rm -rf main.d main.o ifstatementCastVote.exe 
+10:53:05 **** Clean-only build of configuration Debug for project macro ****
+rm -rf macro.exe test.o test.d 
+10:53:05 **** Clean-only build of configuration Debug for project math ****
+rm -rf math.o math.d main.d main.o math.exe 
+10:53:05 **** Clean-only build of configuration Debug for project pointer ****
+rm -rf pointer.o pointer.d pointer.exe 
+10:53:05 **** Clean-only build of configuration Debug for project pointer_1 ****
+rm -rf pointer_1.exe pointer.o pointer.d 
+10:53:06 **** Clean-only build of configuration Debug for project pointer_2 ****
+rm -rf pointer.d pointer.o pointer_2.exe 
+10:53:06 **** Clean-only build of configuration Debug for project strings ****
+rm -rf strings.exe main.d main.o 
+10:53:06 **** Clean-only build of configuration Debug for project structInit ****
+rm -rf main.o main.d structInit.exe 
+10:53:06 **** Clean-only build of configuration Debug for project structPacket ****
+rm -rf structPacket.exe main.o main.d 
+10:53:07 **** Clean-only build of configuration Debug for project structPacketBitfield ****
+rm -rf main.d main.o structPacketBitfield.exe 
+10:53:07 **** Clean-only build of configuration Debug for project structPointer ****
+rm -rf main.o structPointer.exe main.d 
+10:53:07 **** Clean-only build of configuration Debug for project struct_array ****
+rm -rf main.o main.d struct_array.exe 
+10:53:07 **** Clean-only build of configuration Debug for project student_record ****
+rm -rf student_record.exe main.d main.o 
+10:53:08 **** Clean-only build of configuration Debug for project switchCaseArea ****
+rm -rf main.o switchCaseArea.exe main.d 
+10:53:08 **** Clean-only build of configuration Debug for project test ****
+rm -rf test.exe test.o test.d 
+10:53:09 **** Clean-only build of configuration Debug for project test2 ****
+rm -rf test2.exe test.o test.d 
+10:53:09 **** Clean-only build of configuration Debug for project type_casting ****
+rm -rf type_cast.o type_casting.exe type_cast.d 
+10:53:09 **** Clean-only build of configuration Debug for project union ****
+rm -rf main.o union.exe main.d 
+10:53:09 **** Clean-only build of configuration Debug for project unionBitExraction ****
+rm -rf main.d unionBitExraction.exe main.o 
+10:53:10 **** Clean-only build of configuration Debug for project var_address ****
+rm -rf main.o var_address.exe main.d 
+10:53:10 **** Clean-only build of configuration Debug for project whileLoopEvenNum ****
+rm -rf main.d main.o whileLoopEvenNum.exe 

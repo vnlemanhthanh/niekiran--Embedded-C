@@ -1,0 +1,5 @@
+10:53:07 **** Clean-only build of configuration Debug for project structPointer ****
+rm -rf main.o structPointer.exe main.d 
+
+10:53:07 Build Finished. 0 errors, 0 warnings. (took 378ms)
+

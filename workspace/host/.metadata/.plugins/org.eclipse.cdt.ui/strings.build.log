@@ -1,0 +1,5 @@
+10:53:06 **** Clean-only build of configuration Debug for project strings ****
+rm -rf strings.exe main.d main.o 
+
+10:53:06 Build Finished. 0 errors, 0 warnings. (took 168ms)
+

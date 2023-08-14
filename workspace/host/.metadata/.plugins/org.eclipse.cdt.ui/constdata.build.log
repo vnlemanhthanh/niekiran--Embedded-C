@@ -1,0 +1,5 @@
+10:53:03 **** Clean-only build of configuration Debug for project constdata ****
+rm -rf main.o main.d constdata.exe 
+
+10:53:03 Build Finished. 0 errors, 0 warnings. (took 163ms)
+

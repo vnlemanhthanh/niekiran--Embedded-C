@@ -1,0 +1,5 @@
+10:53:04 **** Clean-only build of configuration Debug for project ifelseBiggestOfTwo ****
+rm -rf ifelseBiggestOfTwo.exe main.o main.d 
+
+10:53:04 Build Finished. 0 errors, 0 warnings. (took 175ms)
+

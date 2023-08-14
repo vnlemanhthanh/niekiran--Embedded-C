@@ -1,0 +1,5 @@
+10:53:03 **** Clean-only build of configuration Debug for project forloopNumberPyramid ****
+rm -rf main.o main.d forloopNumberPyramid.exe 
+
+10:53:04 Build Finished. 0 errors, 0 warnings. (took 175ms)
+

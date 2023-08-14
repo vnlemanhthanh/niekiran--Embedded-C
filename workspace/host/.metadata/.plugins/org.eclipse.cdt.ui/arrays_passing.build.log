@@ -1,0 +1,5 @@
+10:53:01 **** Clean-only build of configuration Debug for project arrays_passing ****
+rm -rf main.o arrays_passing.exe main.d 
+
+10:53:01 Build Finished. 0 errors, 0 warnings. (took 163ms)
+

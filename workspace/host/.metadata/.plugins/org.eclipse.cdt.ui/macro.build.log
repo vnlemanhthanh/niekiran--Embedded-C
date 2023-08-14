@@ -1,0 +1,5 @@
+10:53:05 **** Clean-only build of configuration Debug for project macro ****
+rm -rf macro.exe test.o test.d 
+
+10:53:05 Build Finished. 0 errors, 0 warnings. (took 165ms)
+

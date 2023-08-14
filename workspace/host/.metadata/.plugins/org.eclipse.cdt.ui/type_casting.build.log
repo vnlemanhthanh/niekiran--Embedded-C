@@ -1,0 +1,5 @@
+10:53:09 **** Clean-only build of configuration Debug for project type_casting ****
+rm -rf type_cast.o type_casting.exe type_cast.d 
+
+10:53:09 Build Finished. 0 errors, 0 warnings. (took 163ms)
+
