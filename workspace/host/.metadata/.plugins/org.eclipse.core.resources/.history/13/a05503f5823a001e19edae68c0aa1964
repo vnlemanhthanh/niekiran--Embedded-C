@@ -1,0 +1,13 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 13, 2023
+ *      Author: vnlemanhthanh
+ */
+#include <studio.h>
+int main() {
+	int a = 0;
+	Printf("%d", (++a) + (++a));
+	return 0;
+}
+

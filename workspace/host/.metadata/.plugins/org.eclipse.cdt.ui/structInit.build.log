@@ -1,5 +1,28 @@
-10:53:06 **** Clean-only build of configuration Debug for project structInit ****
-rm -rf main.o main.d structInit.exe 
+17:36:25 **** Incremental Build of configuration Debug for project structInit ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:15:43: warning: format '%I64u' expects argument of type 'long long unsigned int', but argument 2 has type 'unsigned int' [-Wformat=]
+   15 |  printf("Sizeof of struct carModel is %I64u\n", sizeof(struct carModel));
+      |                                       ~~~~^     ~~~~~~~~~~~~~~~~~~~~~~~
+      |                                           |     |
+      |                                           |     unsigned int
+      |                                           long long unsigned int
+      |                                       %u
+..\main.c:15:43: warning: format '%I64u' expects argument of type 'long long unsigned int', but argument 2 has type 'unsigned int' [-Wformat=]
+   15 |  printf("Sizeof of struct carModel is %I64u\n", sizeof(struct carModel));
+      |                                       ~~~~^     ~~~~~~~~~~~~~~~~~~~~~~~
+      |                                           |     |
+      |                                           |     unsigned int
+      |                                           long long unsigned int
+      |                                       %u
+..\main.c:14:18: warning: unused variable 'carHonda' [-Wunused-variable]
+   14 |  struct carModel carHonda;
+      |                  ^~~~~~~~
+..\main.c:13:18: warning: unused variable 'carBMW' [-Wunused-variable]
+   13 |  struct carModel carBMW = { 0,0,0,0 };
+      |                  ^~~~~~
+gcc -o structInit.exe main.o 
 
-10:53:06 Build Finished. 0 errors, 0 warnings. (took 172ms)
+17:36:26 Build Finished. 0 errors, 4 warnings. (took 1s.142ms)
 
